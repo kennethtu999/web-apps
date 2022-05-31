@@ -56,6 +56,7 @@ module.exports = {
             'process.env.REACT_APP_REACT_PORT': JSON.stringify(process.env.REACT_APP_REACT_PORT),
             'process.env.REACT_APP_HOST_WC_PORT': JSON.stringify(process.env.REACT_APP_HOST_WC_PORT),
             'process.env.REACT_APP_VUE_PORT': JSON.stringify(process.env.REACT_APP_VUE_PORT),
+            'process.env.REACT_APP_FCO08001_PORT': JSON.stringify(process.env.REACT_APP_FCO08001_PORT),
             'process.env.REACT_APP_IFRAME_PORT': JSON.stringify(process.env.REACT_APP_IFRAME_PORT),
             'process.env.REACT_APP_ADMIN_PORT': JSON.stringify(process.env.REACT_APP_ADMIN_PORT),
             'process.env.REACT_APP_REACT_MENU_PORT': JSON.stringify(process.env.REACT_APP_REACT_MENU_PORT),

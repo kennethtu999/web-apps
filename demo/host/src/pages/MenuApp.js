@@ -4,7 +4,7 @@ import {useApplication, useListenerEffect, eventType} from '@ringcentral/web-app
 
 const id = 'react';
 
-const delay = value => new Promise(res => setTimeout(() => res(value), 1000));
+const delay = value => new Promise(res => setTimeout(() => res(value), 200));
 
 export const MenuApp = memo(({logout}) => {
     const [url, setUrl] = useState(null);

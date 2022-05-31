@@ -48,6 +48,14 @@ export const appRegistry = {
                 : `http://localhost:${process.env.REACT_APP_VUE_PORT}`,
         ) => [`${url}/js/app.js`, `${url}/js/chunk-vendors.js`],
     },
+    fco08001: {
+        type: 'script',
+        getUrl: (
+            url = process.env.NODE_ENV === 'production'
+                ? `/demo/fco08001/dist`
+                : `http://localhost:${process.env.REACT_APP_FCO08001_PORT}`,
+        ) => [`${url}/js/app.js`, `${url}/js/chunk-vendors.js`],
+    },
     iframe: {
         type: 'iframe',
         origin:

@@ -37,13 +37,10 @@ export default ({node}) => (
             </li>
         </ul>
         <small className="navbar-text" style={{marginRight: '1rem'}}>
-            Whole menu is an app that listens to routing
+            menu app that listens to routing
         </small>
-        <button
-            className="btn btn-outline-danger"
-            onClick={e => dispatchEvent(node, eventType.message, {logout: true})}
-        >
-            Logout
-        </button>
+        <NavLink to="/" className="nav-link">
+            登出
+        </NavLink>
     </nav>
 );

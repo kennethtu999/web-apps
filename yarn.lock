@@ -474,7 +474,7 @@
     "@babel/traverse" "^7.8.3"
     "@babel/types" "^7.8.3"
 
-"@babel/helper-compilation-targets@^7.10.2", "@babel/helper-compilation-targets@^7.8.3", "@babel/helper-compilation-targets@^7.9.6":
+"@babel/helper-compilation-targets@7.10.2", "@babel/helper-compilation-targets@^7.10.2", "@babel/helper-compilation-targets@^7.8.3", "@babel/helper-compilation-targets@^7.9.6":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.10.2.tgz#a17d9723b6e2c750299d2a14d4637c76936d8285"
   integrity sha512-hYgOhF4To2UTB4LTaZepN/4Pl9LD4gfbJx8A34mqoluT8TLbof1mhUlYuNWTEebONa8+UlCC4X0TEXu7AOUyGA==
